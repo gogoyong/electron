@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Collapsed from './components/Collapsed';
+import CollapsedSecond from './components/CollapsedSecond';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <div class="contents">
             <div class="sidebar">
               <Collapsed />
+              <CollapsedSecond />
             </div>
             <div class="main"></div>
           </div>
