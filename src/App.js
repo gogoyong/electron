@@ -13,18 +13,18 @@ function App() {
             <div class="control prevent-select">
               <button id="min">
                 <img
-                  src="./src/fontawesome/svgs/solid/window-minimize.svg"
+                  src="./fontawesome/svgs/solid/window-minimize.svg"
                   alt=""
                 />
               </button>
               <button id="max">
                 <img
-                  src="./src/fontawesome/svgs/solid/window-maximize.svg"
+                  src="./fontawesome/svgs/solid/window-maximize.svg"
                   alt=""
                 />
               </button>
               <button id="close">
-                <img src="./src/fontawesome/svgs/solid/xmark.svg" alt="" />
+                <img src="./fontawesome/svgs/solid/xmark.svg" alt="" />
               </button>
             </div>
           </div>
