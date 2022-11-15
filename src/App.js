@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Collapsed from './components/Collapsed';
+import CollapsedSecond from './components/CollapsedSecond';
 
 function App() {
   return (
@@ -12,24 +13,25 @@ function App() {
             <div class="control prevent-select">
               <button id="min">
                 <img
-                  src="./src/fontawesome/svgs/solid/window-minimize.svg"
+                  src="./fontawesome/svgs/solid/window-minimize.svg"
                   alt=""
                 />
               </button>
               <button id="max">
                 <img
-                  src="./src/fontawesome/svgs/solid/window-maximize.svg"
+                  src="./fontawesome/svgs/solid/window-maximize.svg"
                   alt=""
                 />
               </button>
               <button id="close">
-                <img src="./src/fontawesome/svgs/solid/xmark.svg" alt="" />
+                <img src="./fontawesome/svgs/solid/xmark.svg" alt="" />
               </button>
             </div>
           </div>
           <div class="contents">
             <div class="sidebar">
               <Collapsed />
+              <CollapsedSecond />
             </div>
             <div class="main"></div>
           </div>

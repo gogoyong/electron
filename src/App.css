@@ -37,8 +37,8 @@ body * {
   color: #ffffff;
   outline: 0;
   border: 0;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 
 .control button:hover {
@@ -72,7 +72,7 @@ body * {
 .sidebar {
   width: 230px;
   border-right: 1px solid;
-  height: calc(var(--vh, 1vh) * 100 - 30px);
+  height: calc(100vh - 30px);
 }
 .main {
   width: 730px;
