@@ -1,0 +1,99 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: 0px;
+  font-size: 10px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  padding: 0;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.title {
+  height: auto;
+  padding: 10px;
+  display: inline-block;
+}
+
+.control {
+  float: right;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5px;
+  margin-right: 5px;
+  width: 100px;
+}
+
+.control button {
+  padding: 5px;
+  background: #ffffff;
+  color: #ffffff;
+  outline: 0;
+  border: 0;
+  width: 25px;
+  height: 25px;
+}
+
+.control button:hover {
+  background: #444444;
+}
+
+.title-bar {
+  height: 30px;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+
+.prevent-select {
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+.draggable {
+  -webkit-app-region: drag;
+}
+
+.App {
+  text-align: center;
+}
+
+.contents {
+  display: flex;
+}
+.sidebar {
+  width: 230px;
+  border-right: 1px solid;
+  height: calc(var(--vh, 1vh) * 100 - 30px);
+}
+.main {
+  width: 730px;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
