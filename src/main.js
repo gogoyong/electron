@@ -10,9 +10,15 @@ function createWindow() {
     frame: false,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
+      nodeIntegration: true,
+      contextIsolation: false,
     },
   });
   win.loadURL('http://localhost:3000');
+
+  // Open the DevTools.
+  // win.webContents.openDevTools();
+
   ipc.on('minimizeApp', () => {
     win.minimize();
   });
@@ -32,6 +38,6 @@ function createWindow() {
 app.whenReady().then(() => {
   createWindow();
 });
-app.on('window-all-closed', function () {
+app.on('window-all-closed', function() {
   if (process.platform !== 'darwin') app.quit();
 });
