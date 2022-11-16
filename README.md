@@ -6,7 +6,7 @@
 
 ## 사용기술
 
-JavaScript, React.js, Electron.js, antd, material-UI, re-resizable
+JavaScript, React.js, Electron.js, antd, material-UI, re-resizable, styled-components
 
 ## 커밋 컨벤션
 
