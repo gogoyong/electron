@@ -5,7 +5,6 @@ const style = {
   alignItems: 'center',
   justifyContent: 'center',
   border: 'solid 0px #ddd',
-  // background: '#f0f0f0',
 };
 
 const Resizabled = () => {
