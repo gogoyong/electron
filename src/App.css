@@ -1,11 +1,7 @@
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif;
+body * {
+  font-family: 'Inter', sans-serif;
   margin: 0px;
   font-size: 10px;
-}
-
-body * {
   box-sizing: border-box;
 }
 
@@ -53,9 +49,9 @@ body * {
 }
 
 .prevent-select {
-  user-select: none;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  user-select: none;
 }
 
 .draggable {
@@ -77,23 +73,3 @@ body * {
 .main {
   width: 730px;
 }
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-} */

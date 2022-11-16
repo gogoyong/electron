@@ -12,19 +12,13 @@ function App() {
             <div class="title prevent-select draggable">Milliman</div>
             <div class="control prevent-select">
               <button id="min">
-                <img
-                  src="./fontawesome/svgs/solid/window-minimize.svg"
-                  alt=""
-                />
+                <img src="assets/svgs/solid/window-minimize.svg" alt="alt" />
               </button>
               <button id="max">
-                <img
-                  src="./fontawesome/svgs/solid/window-maximize.svg"
-                  alt=""
-                />
+                <img src="assets/svgs/solid/window-maximize.svg" alt="alt" />
               </button>
               <button id="close">
-                <img src="./fontawesome/svgs/solid/xmark.svg" alt="" />
+                <img src="assets/svgs/solid/xmark.svg" alt="alt" />
               </button>
             </div>
           </div>
@@ -33,7 +27,7 @@ function App() {
               <Collapsed />
               <CollapsedSecond />
             </div>
-            <div class="main"></div>
+            <div class="main">{/* main 자리 */}</div>
           </div>
         </div>
       </header>
