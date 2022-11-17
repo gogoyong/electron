@@ -5,7 +5,7 @@ const ipc = ipcMain;
 function createWindow() {
   const win = new BrowserWindow({
     width: 960,
-    height: 600,
+    height: 630,
     frame: false,
     webPreferences: {
       nodeIntegration: true,
